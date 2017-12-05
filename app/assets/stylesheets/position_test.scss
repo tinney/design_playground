@@ -1,0 +1,53 @@
+// Place all the styles related to the position_test controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 3000px;
+  background-color: #E9C46A;
+  color: #264653;
+  font-size: 3em;
+}
+
+div {
+  border: 4px solid #E76F51;
+  background-color: #2A9D8F;
+  border-radius: 3px;
+  height: 200px;
+  width: 200px;
+}
+
+.static {
+  position: static;
+  top: 10px;
+  left: 10px;
+}
+
+.relative {
+  top: 30px;
+  left: 300px;
+  position: relative;
+}
+
+.absolute {
+  top: 60px;
+  left: 600px;
+  position: absolute;
+}
+
+.fixed {
+  left: 500px;
+  top: 300px;
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+// /* Global values */
+// position: inherit;
+// position: initial;
+// position: unset;
